@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+!.gitignore
+
+# The eula that allows minecraft to run
+!minecraft
+!minecraft/eula.txt
+
+# The Dockerfile for the windows image
+!Dockerfile
+
+# Docs
+!README.md
