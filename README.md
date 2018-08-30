@@ -11,9 +11,11 @@ Or... at least it's running natively in a Windows Container on Microsofts Nanose
 
 ## 2. Java Runtime Environment (JRE)
 
-1. Download a Java Runtime Environment 8, you can find this on Google and put it beside the `Dockerfile`.
-    I used the `jre-8u181-windows-x64.tar.gz`, which Docker unpacks when you add it to a container.
-1. Overwrite the values in the `Dockerfile` with your corresponding file, and its contents.
+1. Copied from [Oracle Java on Docker](https://github.com/oracle/docker-images/tree/master/OracleJava)
+    - [Download Server JRE 8](http://www.oracle.com/technetwork/java/javase/downloads/server-jre8-downloads-2133154.html) `.tar.gz` file.
+        place it beside the `Dockerfile`
+
+1. Overwrite the values in the `Dockerfile` with your corresponding file, and its contents
 
 ## 3. EULA
 

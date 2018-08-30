@@ -4,8 +4,8 @@ COPY minecraft ./minecraft
 
 # These are the values you should overwrite
 # BRUTALLY (sort of) ~stolen~ inspired by https://github.com/oracle/docker-images/blob/master/OracleJava/windows-java-8/nanoserver/Dockerfile
-ENV JAVA_PKG=jre-8u181-windows-x64.tar.gz \
-    JAVA_HOME=C:\\jre1.8.0_181
+ENV JAVA_PKG=server-jre-8u181-windows-x64.tar.gz \
+    JAVA_HOME=C:\\jdk1.8.0_181
 
 ADD $JAVA_PKG ./
 
