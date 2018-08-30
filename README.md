@@ -13,11 +13,11 @@ Or... at least it's running natively in a Windows Container on Microsofts Nanose
 
 1. Download a Java Runtime Environment 8, you can find this on Google and put it beside the `Dockerfile`.
     I used the `jre-8u181-windows-x64.tar.gz`, which Docker unpacks when you add it to a container.
-1. Overwrite the values in the `Dockerfile` with your corresponding file, and its contents
+1. Overwrite the values in the `Dockerfile` with your corresponding file, and its contents.
 
 ## 3. EULA
 
-Change the value from `eula=false` to `eula=true`, to indicating your agreement to Mojangs Minecraft EULA.
+Change the value from `eula=false` to `eula=true`, indicating your agreement to Mojangs Minecraft EULA.
 
 # Build with
 
@@ -53,7 +53,7 @@ docker logs minecraft
 
 Add `-f` to follow, `ctrl + c` to stop following.
 
-# Minecraft run command
+# Minecraft Run Command
 
 ```shell
 java -Xmx1024M -Xms1024M -jar -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 server.jar nogui
