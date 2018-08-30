@@ -17,7 +17,7 @@ Or... at least it's running natively in a Windows Container on Microsofts Nanose
 
 ## 3. EULA
 
-Change the value from `eula=false` to `eula=true`, indicating your agreement to Mojangs Minecraft EULA.
+In `minecraft/eula.txt`, change the value from `eula=false` to `eula=true`, indicating your agreement to Mojangs Minecraft EULA.
 
 # Build with
 
